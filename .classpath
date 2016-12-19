@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="orchestration/java/cloud-infrastructure-model/src/main/java"/>
+	<classpathentry kind="src" path="orchestration/java/cloud-infrastructure-shell/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/gamjatang1/Desktop/twilio/orchestration/java/library/asg.cliche-110413.jar"/>
+	<classpathentry kind="lib" path="/Users/gamjatang1/Desktop/twilio/orchestration/java/library/jackson-annotations-2.8.0.jar"/>
+	<classpathentry kind="lib" path="/Users/gamjatang1/Desktop/twilio/orchestration/java/library/jackson-core-2.8.5.jar"/>
+	<classpathentry kind="lib" path="/Users/gamjatang1/Desktop/twilio/orchestration/java/library/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
