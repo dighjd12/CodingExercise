@@ -26,6 +26,10 @@ public class HostTypeManager {
 	        return manager;
 	   }
 	   
+	   public List<HostType> getHostTypes(){
+		   return hostTypes;
+	   }
+	   
 	   public void initialize(String path){
 		    ObjectMapper mapper = new ObjectMapper();
 		    try {

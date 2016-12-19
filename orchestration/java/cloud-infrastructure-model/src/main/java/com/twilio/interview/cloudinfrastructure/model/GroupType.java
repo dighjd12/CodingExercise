@@ -2,10 +2,14 @@ package com.twilio.interview.cloudinfrastructure.model;
 
 import java.util.List;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.twilio.interview.cloudinfrastructure.model.impl.GroupTypeImpl;
+
 /**
  * Interface {@link GroupType} defines the contract implemented by the host
  * group type objects.
  */
+@JsonDeserialize(as=GroupTypeImpl.class)
 public interface GroupType extends HostType {
     /**
      * Returns host (instance) size for the group.

@@ -9,6 +9,10 @@ import com.twilio.interview.cloudinfrastructure.model.HostSize;
 
 public class GroupImpl implements Group {
 
+	public GroupImpl(){
+		
+	}
+	
     @Override
     public String getId() {
         // TODO Auto-generated method stub
